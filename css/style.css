@@ -616,15 +616,12 @@ ul {
   color: #fff;
 }
 
-.footer .form-container {
+.footer .form-container .email-input {
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-.footer .form-container .email-input {
-  margin-bottom: 16px;
 }
 
 .footer .form-container .bg-email-form {
