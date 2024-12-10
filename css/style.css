@@ -623,6 +623,9 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.footer .e-mail-input {
+  margin-bottom: 16px;
+}
 
 .footer .form-container .bg-email-form {
   display: flex;
@@ -660,6 +663,6 @@ ul {
   border: none;
   border-radius: 4px;
 }
-.form-container .footer-svg {
+.form-container .send-icon {
   margin-left: 16px;
 }
