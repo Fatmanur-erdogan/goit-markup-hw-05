@@ -643,6 +643,10 @@ ul {
   color: #ffffff;
 }
 
+.form-container {
+  margin-left: 80px;
+}
+
 .form-container .footer-button {
   min-width: 165px;
   height: 40px;
