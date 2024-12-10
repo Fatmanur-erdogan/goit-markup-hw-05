@@ -623,7 +623,7 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.footer .e-mail-input {
+.footer .form-container .email-input {
   margin-bottom: 16px;
 }
 
