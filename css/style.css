@@ -623,3 +623,8 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
+.footer .form-container .bg-email-form {
+  display: flex;
+  gap: 24px;
+}
