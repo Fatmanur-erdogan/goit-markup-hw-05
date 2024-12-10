@@ -660,3 +660,6 @@ ul {
   border: none;
   border-radius: 4px;
 }
+.form-container .footer-svg {
+  margin-left: 16px;
+}
