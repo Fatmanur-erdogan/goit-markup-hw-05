@@ -436,9 +436,20 @@
         <div class="form-container">
           <p class="e-mail-input">Subscribe</p>
           <form class="bg-email-form">
-            <label class="email-label"
-              ><input class="email-input" type="text"
+            <label class="email-label" for="email-label"
+              ><input
+                class="email-input"
+                id="email-input"
+                type="e-mail"
+                name="email-input"
+                placeholder="E-mail"
             /></label>
+            <button type="submit" class="footer-button">
+              Subscribe
+              <svg width="24" height="24" class="send-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
