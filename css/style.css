@@ -755,3 +755,7 @@ ul {
   letter-spacing: 0.48px;
   margin-bottom: 4px;
 }
+
+.modal-form-item .form-input-group {
+  position: relative;
+}
