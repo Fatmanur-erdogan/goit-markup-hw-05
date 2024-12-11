@@ -468,7 +468,7 @@
         <p class="modal-header">
           Leave your contacts and we will call you back
         </p>
-         <form action="#" class="modal-form-container">
+        <form action="#" class="modal-form-container">
           <div class="modal-form-item">
             <label for="user-name" class="form-label">Name</label>
             <div class="form-input-group">
@@ -478,12 +478,41 @@
                 id="user-name"
                 class="form-input"
                 required
-              /> 
-               <svg width="18" height="24" class="form-icon">
+              />
+              <svg width="18" height="24" class="form-icon">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
-              </div>
-              </div>
+            </div>
+          </div>
+          <div class="modal-form-item modal-form-item-textarea">
+            <label for="user-comment" class="form-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="form-textarea"
+            ></textarea>
+          </div>
+          <div class="modal-form-item modal-form-item-checkbox">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="form-checkbox visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="form-label">
+              <span class="form-label-icon" id="form-label-icon-checkbox">
+                <svg class="form-label-icon-box" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="#" class="form-label-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-form-button">Send</button>
+        </form>
       </div>
     </div>
   </body>
